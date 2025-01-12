@@ -7,11 +7,9 @@ This repository significantly accelerates K-Means clustering using CUDA, achievi
 - **Time Complexity Reduction:** Reduced from **O(N*K*T)** to **O(T(K+a))**, where **a** and **K** are small constants.
 - **Efficiency:** The program is no longer computation-bound due to CUDA optimizations.
 
-For a detailed introduction, implementation, and evaluation, please refer to the project report: [**PP_final_project.pdf**](https://github.com/tony96011/k-means-parallel/blob/master/PP_final_project.pdf).
+For a detailed introduction, implementation, and evaluation, please refer to the project report: [**K-means-parallel**](https://github.com/tony96011/k-means-parallel/blob/master/PP_final_project.pdf).
 
 ---
-
-## 📦 Code Structure
 This project extends the work from [vinayak1998/Parallel-K-Means-Clustering](https://github.com/vinayak1998/Parallel-K-Means-Clustering) by optimizing it using CUDA.
 
 ### Implementations:
@@ -22,7 +20,7 @@ This project extends the work from [vinayak1998/Parallel-K-Means-Clustering](htt
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### CUDA Implementation
    ```bash
@@ -36,9 +34,9 @@ This project extends the work from [vinayak1998/Parallel-K-Means-Clustering](htt
   - please refer to the bash file for sample execution
 
 - **Input**
-  - we also offer an input generator in Input folder
+  - we also offer an input generator in Input folder for generating the input data.
   ```bash
-  ./input_generator N for generating the input data.
+  ./input_generator N 
   ```
 - for other version please refer to the root author's repository
  
